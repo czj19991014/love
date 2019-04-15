@@ -1,0 +1,27 @@
+Arguments: 
+  D:\Develop\node.exe D:\Develop\node_global\node_modules\yarn\bin\yarn.js add bootstrap
+
+PATH: 
+  D:\Develop\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\jdk1.8\bin;D:\jdk1.8\jre\bin;D:\MySql\mysql-5.7.21-winx64\bin;C:\Users\TR\AppData\Local\Microsoft\WindowsApps;D:\Develop\node_global;C:\Users\TR\AppData\Roaming\npm;D:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\MySql\AppServ\Apache24\bin;D:\MySql\AppServ\php5;D:\MySql\AppServ\MySQL\bin;
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 2606:4700::6810:1b23:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,87 @@
+.img{
+   width: 627px;
+   height: 280px;
+   position: absolute;
+    right: 430px;
+    top: 0px;
+}
+.div1{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    right: 390px;
+    bottom: 500px;
+    color: deeppink;
+    font-size: 22px;
+}
+.div7{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    right: 560px;
+    bottom: 600px;
+    color: deeppink;
+    font-size: 30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.digit{
+    font-size: 36px;
+}
+.div2{
+    color: red;
+    font-size: 25px;
+    letter-spacing: 0;
+    position: absolute;
+    right: 50px;
+    top: 230px;
+    font-weight: bold;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+.div3{
+    color :gold;
+    font-size: 40px;
+    position: absolute;
+    right: 760px;
+    bottom: 380px;
+}
+.div4{
+    color: gold;
+    font-size: 25px;
+    letter-spacing: 0;
+    position: absolute;
+    left: 350px;
+    bottom: 160px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+.div5{
+    color: gold;
+    font-size: 25px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    letter-spacing: 0;
+    position: absolute;
+    right: 430px;
+    bottom: 160px;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+.div6{
+    color: gold;
+    font-size: 26px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    letter-spacing: 0;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    bottom: 160px;
+    filter: alpha(opacity=50);
+    opacity:0.6;
+    display: none;
+}

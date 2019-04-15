@@ -1,0 +1,76 @@
+.img{
+    width: 627px;
+    height: 380px;
+    position: absolute;
+    right: 480px;
+    bottom: 0px;
+}
+.div1{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    right: 400px;
+    bottom: 550px;
+    color: deeppink;
+    font-size: 22px;
+}
+.digit{
+    font-size: 36px;
+}
+.div2{
+    color: red;
+    font-size: 25px;
+    letter-spacing: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 250px;
+    font-weight: bold;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+.div3{
+    color :red;
+    font-size: 40px;
+    position: absolute;
+    right: 800px;
+    top: 130px;
+}
+.div4{
+    color: orangered;
+    font-size: 25px;
+    letter-spacing: 0;
+    position: absolute;
+    right: 580px;
+    bottom: 380px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.div6{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    letter-spacing: 0;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    bottom: 160px;
+    filter: alpha(opacity=50);
+    opacity:0.8;
+}
+.div7{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    right: 580px;
+    bottom: 650px;
+    color: deeppink;
+    font-size: 30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}

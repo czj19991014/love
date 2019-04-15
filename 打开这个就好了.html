@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery-3.3.1.min.js"></script>
+    <link href="Jquery.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" class="autoinsert" src="./jquery-3.3.1.min.js"></script> 
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="./snowfall.jquery.js"></script> 
+    <title>向尹仙女表白呀！</title>
+    <style>
+        {
+            margin: 0
+        ;
+            padding: 0
+        ;
+            list-style: none
+        ;
+        }
+
+        body {
+            background: url("../untitled/node_modules/img/14.jpg");
+            margin: 0 auto;
+            background-size: 100%;
+        }
+
+        span {
+            width: 30px;
+            height: 30px;
+            background: url("../untitled/node_modules/img/15.png") no-repeat;
+            position: absolute;
+            background-size: 100% 100%;
+            animation: flash 1s alternate infinite;
+        }
+
+        @keyframes flash {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        span:hover {
+            transform: scale(3, 3) rotate(180deg) !important;
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body >
+<script>
+    window.onload = function () {
+        // 1.求出屏幕的尺寸
+        var screenW = document.documentElement.clientWidth;
+        var screenH = document.documentElement.clientHeight;
+        // 2.动态创建爱心
+        for (var i = 0; i < 150; i++) {
+            // 循环遍历
+            var span = document.createElement('span');
+            document.body.appendChild(span);
+            // 2.2随机坐标
+            var x = parseInt(Math.random() * screenW);
+            var y = parseInt(Math.random() * screenH);
+            span.style.left = (x) + "px";
+            span.style.top = y + "px";
+            // 2.3随机缩放
+            var scale = Math.random() * 1.5;
+            span.style.transform = 'scale(' + scale + ',' + scale + ')';
+            // 2.4频率
+            var rate = Math.random() * 1.5;
+            span.style.animationDelay = rate + "s";
+        }
+    }
+</script>
+ <script>
+     $(document).ready(function() {
+         setInterval(getTime, 1000);
+         function getTime() {
+             var date1= '2015/10/31 9:50:00';  //开始时间
+             var date2 = new Date();    //结束时间
+             var date3 = date2.getTime() - new Date(date1).getTime();   //时间差的毫秒数
+             //计算出相差天数
+             var days=Math.floor(date3/(24*3600*1000));
+             //计算出小时数
+             var leave1=date3%(24*3600*1000) ;   //计算天数后剩余的毫秒数
+             var hours=Math.floor(leave1/(3600*1000));
+             //计算相差分钟数
+             var leave2=leave1%(3600*1000)      ;  //计算小时数后剩余的毫秒数
+             var minutes=Math.floor(leave2/(60*1000));
+             //计算相差秒数gem install bootstrap -v 4.3.1
+             var leave3=leave2%(60*1000)    ;  //计算分钟数后剩余的毫秒数
+             var seconds=Math.round(leave3/1000);
+             var result = days+" days "+hours+" hours "+minutes+" minutes "+seconds+" seconds 了";
+            /* var result = "<span style='font-size: 30px'>" + days + "</span> days " +
+                          "<span style='font-size: 30px'>" + hours + "</span> hours " +
+                          "<span style='font-size: 30px'>" + minutes + "</span> minutes " +
+                          "<span style='font-size: 30px'>" + seconds + "</span> seconds";
+            */
+
+             $("#time").html(result);
+         }
+         $("#span").click(function () {
+            love();
+            words();
+            $("#1999").show();
+         });
+         });
+     //花瓣掉落函数
+     function love() {
+         $(document).snowfall('clear');
+         $(document).snowfall({
+             image:"../untitled/node_modules/img/12.png" ,
+             flakeCount:50,
+             minSize: 20,
+             maxSize: 50
+         });
+     }
+     function words(){
+         var index=0;
+         var word=document.getElementById("0402").innerHTML;
+         function type(){
+             document.getElementById("8822").innerText = word.substring(0,index++);
+         }
+         setInterval(type, 50);
+     }
+ </script>
+<div class="div7">我们已经在一起 </div>
+<div id="time" class="div1"></div>
+<div class="div2">嘿，尹仙女 <br>在一起的时间在一分一秒的增加<br>我对你的喜欢也一点一滴的递增呀！</div>
+<div class="div4"> 哼，臭不要脸的<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想死了吧!<br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;滚!<br> &nbsp;&nbsp; &nbsp; 吃屎吧你!</div>
+<div class="div5">Hi,大哥<br>要亲亲💗<br>抱抱💗<br>举高高💗</div>
+ <div class="div3"><span class="glyphicon glyphicon-heart " id="span"></span></div>
+<!--<img class="img" src="../untitled/node_modules/img/18.gif"-->
+<div id="0402" style="display: none">
+     我知道
+    过去我让你受过很多气
+    希望您老不计前嫌
+    以后我会好好当好小弟
+    好好宠着你的
+    那么你就留在我身边
+    陪着我一直走下去好不好
+    在此献上小弟的小心心💗
+</div>
+<div class="div6" id="8822"></div>
+<img class="img2" src="node_modules/img/177.gif" id="1999">
+<embed  style="width: 0px" src="node_modules/video/白小白%20_%20朱鸽%20-%20只想说声爱你.mp3" autostart="true" loop="-1" ></embed>
+
+</body>
+</html>
